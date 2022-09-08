@@ -1,0 +1,105 @@
+:root {
+  --trans: rgba(0, 0, 0, 0.1);
+  --trans2: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgb(151, 222, 224) 0%,
+    rgb(238, 197, 232) 100%
+  );
+  position: relative;
+}
+
+.side-nav {
+  margin-left: 1rem;
+  height: 2rem;
+}
+
+.side-nav .categories {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style-type: none;
+}
+
+/* INTRO */
+#intro {
+  padding-bottom: 2rem;
+  border-bottom: 5px solid black;
+}
+
+.intro-container {
+  width: 70rem;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  border-color: black;
+  background-color: var(--trans);
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  flex: wrap;
+  gap: 1rem;
+}
+
+.grid-container p {
+  background-color: var(--trans2);
+  margin: 0.1rem;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+}
+
+.grid-container p:first-of-type {
+  margin-left: 0;
+}
+
+/* INTERESTS */
+#interests {
+  padding-bottom: 2rem;
+  border-bottom: 5px solid black;
+}
+
+.interests-container {
+  width: 70rem;
+  margin: auto;
+}
+
+/* PROJECTS */
+#projects {
+  padding-bottom: 2rem;
+  border-bottom: 5px solid black;
+}
+
+.featured,
+.projects-container {
+  width: 70rem;
+  margin: auto;
+}
+
+/* VACATIONS */
+#vacations {
+  padding-bottom: 2rem;
+  border-bottom: 5px solid black;
+}
+
+.vacation-container {
+  width: 70rem;
+  margin: auto;
+}
+
+/* CONTACT */
+#contact {
+  padding-bottom: 2rem;
+  border-bottom: 5px solid black;
+}
+
+.contact-container {
+  width: 70rem;
+  margin: auto;
+}
