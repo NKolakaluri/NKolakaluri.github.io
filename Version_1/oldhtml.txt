@@ -1,0 +1,231 @@
+<!-- <div id="interests">
+        <div class="interests-container">
+          <h2>Fitness</h2>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\gifs\spongebob_lifting_weights.gif"
+              alt="Spongebob lifting weights gif"
+            />
+          </div>
+          <div class="text-container">
+            Fitness has been and is a huge part of my life. I spend hours every
+            week with some of my closest friends trying to be better than the
+            day before. With a structured strength training schedule, strict
+            meal plans and discipline I try to reach the physical goals I have
+            set for myself.
+          </div>
+        </div>
+        <div class="interests-container">
+          <h2>Guitar</h2>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\gifs\yui_playing_guitar_fast.gif"
+              alt="Yui playing guitar gif"
+            />
+          </div>
+          <div class="text-container">
+            After years of studying music theory and practice playing wind
+            intruments(clarinet and trumpet), I have decided to try out my first
+            string instrument, the electric guitar. The excitement I had when I
+            first opened my sunburst stratocaster out of the box was like no
+            other. I spend hundreds of hours playing my favorite songs and riffs
+            with the guidance of my personal teacher.
+          </div>
+        </div>
+        <div class="interests-container">
+          <h2>Piano</h2>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\gifs\toms-finger-dexterity.gif"
+              alt="Tom's finger dexterity gif"
+            />
+          </div>
+          <div class="text-container">
+            Though it may seem as if I were naturally drawn towards music, there
+            was one instrument that initially sparked my interest, the piano. At
+            5 years of age, I started playing the piano and had a lot of fun
+            playing nursery rhymes such as twinkle twinkle little star. However,
+            after a year and a half of playing for hours a day I just found
+            myself progressing too slowly and had to drop it. But that wasn't
+            the end of it, during quarantine I found myself with a lot of extra
+            time, so I decided to pick it up again. With motivation from a
+            friend who listens to classical music literally all day, I decided
+            to learn some classical pieces and found it to be very enjoyable.
+          </div>
+        </div>
+        <div class="interests-container">
+          <h2>Video Games</h2>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\gifs\adventure-time-tired-gaming.gif"
+              alt="Adventure time gif"
+            />
+          </div>
+          <div class="text-container">
+            On days where I have extra free time, need to relax or to just catch
+            up with some friends, I join a Discord call and play some video
+            games. My favorite genres of games are survival, adventure,
+            mechanical and strategy.
+          </div>
+          <div class="grid-container">
+            <div class="image-container">
+              <img
+                src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\video_games\rocket_league_cover_page.jpg"
+                alt="Rocket League Cover"
+              />
+            </div>
+            <div>
+            Rocket League
+          </div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\video_games\cs_go_cover_page.jpg"
+              alt="CS:GO Cover"
+            />
+          </div>
+          <div>
+            Counter-Strike: Global Offensive
+          </div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\video_games\minecraft_cover.jpg"
+              alt="Minecraft Cover"
+            />
+          </div>
+          <div>
+            Minecraft
+          </div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\video_games\bloons_td_6_cover.jpg"
+              alt="Bloons TD 6 Cover"
+            />
+          </div>
+          <div>
+            Bloons TD 6
+          </div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\video_games\golf_with_your_friends_cover_page.jpg"
+              alt="Golf With Your Friends Cover"
+            />
+          </div>
+          <div>
+            Golf With Your Friends
+          </div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\video_games\Sea_of_thieves_cover.jpg"
+              alt="Sea of TheivesCover"
+            />
+          </div>
+          <div>
+            Sea of Theives
+          </div>
+        </div>
+      </div>
+
+      <div id="travel">
+        <div class="travel-container">
+          <h2>DisneyLand California</h2>
+          <div>Visited: Aug 29, 2022 - Sep 3, 2022</div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\pictures\disneyland_castle_night.jpg"
+              alt="DisneyLand Castle Night"
+            />
+          </div>
+          <div class="text-container">
+            I've been to DisneyLand 3 times now with the most recent time being
+            late August to early September 2022, and it's always a blast. The
+            thrill of going on fast rides, seeing many childhood show
+            characters, buildings, food, etc. is amazing. My favorite rides of
+            them all are Space Mountain, Splash Mountain and the Radiator
+            Springs Racers in the California Adventures park.
+          </div>
+        </div>
+        <div class="travel-container">
+          <h2>Universal Studios Hollywood</h2>
+          <div>Visited: Aug 29, 2022 - Sep 3, 2022</div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\pictures\universal_studios_globe.jpg"
+              alt="Universal Studios Globe"
+            />
+          </div>
+          <div class="text-container">
+            My family usually tries to see everything while we are in a new
+            place, so it was pretty much a must for us to go check out Universal
+            Studios during our stay at Disney. Universal Studios has rides that
+            are a bit more intense than DisneyLand, but that's what makes them
+            fun. My favorite rides in Universal are the Harry Potter Ride, 4D
+            Kung fu Panda mini-movie and just because of how good it is I have
+            to mention the exclusive drink they have, butterbeer.
+          </div>
+        </div>
+        <div class="travel-container">
+          <h2>Victoria Canada</h2>
+          <div>Visited: Apr 7, 2018 - Apr 9, 2018</div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\pictures\victoria_capital_building_night.jpg"
+              alt="Victoria Capital Building Night"
+            />
+          </div>
+          <div class="text-container">
+            Even though Victoria was less than two hours away from home, it was
+            my first time going to another country without my family. This trip
+            was organized by my highschool marching band teacher, where everyone
+            who wanted to participate would go on a boat to this new land.
+            During this trip I was surrounded by close friends, experienced new
+            foods, saw the awesomeness of the capital building and so much more.
+            On top of the already amazing trip I had, our marching band came in
+            first place for most spirited.
+          </div>
+        </div>
+        <div class="travel-container">
+          <h2>Dallas Texas</h2>
+          <div>Visited: Aug 8, 2016 - Aug 15, 2016</div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\pictures\dallas-skyline_night.jpg"
+              alt="Dallas Skyline"
+            />
+          </div>
+          <div class="text-container">
+            Dallas always has a place in me due to the memories I made as a
+            child growing up there. Although the main memory I have is how
+            painful the scorching heat was. Anyways, my family and I decided to
+            go visit some of our closest childhood friends in Seattle who had to
+            move to Texas. After seeing them for the first time again in a few
+            years it felt as if they never left. During this trip we ate loads
+            of food and I experienced my very first outdoor nature pool. This
+            pool was definetely the highlight of the trip(besides reuniting with
+            my friends) due to how unique of a pool it was. The freezing cold
+            water, slimy rocks beneath my feet, vines on the side walls with a
+            stunning waterfall made it seem like I was one with nature.
+          </div>
+        </div>
+        <div class="travel-container">
+          <h2>Hyderabad India</h2>
+          <div>Visited: Jul 2007 - Aug 2007</div>
+          <div class="image-container">
+            <img
+              src="C:\Users\Nathan K\Desktop\Projects\NKolakaluri.github.io\pictures\taj_mahal_evening.jpg"
+              alt="Taj Mahal image"
+            />
+          </div>
+          <div class="text-container">
+            The first country I visited. At 5 years of age my family decided it
+            was time to head to India to meet my grandparents, great
+            grandparents, uncles, aunts and the rest of the family. As I was
+            very young I can't remember much of the trip, except all of the bad.
+            The blazing heat made me sweat pools of water, the amount of people
+            around me made it feel hard to move around(kind of claustrophobic)
+            and I stubbed my right big toe pretty bad. Nonetheless, it was
+            pretty cool to see where my dad grew up, live a different style of
+            life than what I was used to and meet more family.
+          </div>
+        </div>
+      </div>
+    </div> -->

@@ -1,0 +1,217 @@
+:root {
+  --cb: cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#interests section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.25s;
+  background: #333;
+  color: white;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.cards .card.active .label img {
+  width: 5rem;
+  height: 5rem;
+  top: 2rem;
+  left: 2rem;
+}
+/* 
+  section.dark {
+    background: #333;
+    color: white;
+  } */
+
+.cards {
+  display: flex;
+  max-width: 800px;
+  width: calc(100% - 100px);
+  height: 40rem;
+}
+
+.cards .card .info .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.cards .card .label .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  height: 60px;
+  background-color: none;
+  padding-top: 1rem;
+  color: var(--color);
+  border-radius: 70%;
+}
+
+.cards .card .label .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0.5rem;
+  margin-left: 10px;
+  /* white-space: pre; */
+  transition: 1s var(--cb);
+}
+
+.cards .card {
+  position: relative;
+  min-width: 60px;
+  background: var(--bg);
+  overflow: hidden;
+  margin: 5px;
+  background-size: auto 150%;
+  background-position: center;
+  cursor: pointer;
+  transition: 0.5s var(--cb);
+  border-radius: 0.5rem;
+}
+
+.cards .card .label {
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 40px;
+  transition: 0.5s var(--cb);
+}
+
+.cards .card.active .label {
+  /* bottom: 20px; */
+  top: 10px;
+  left: 20px;
+}
+
+/* TESTING */
+.cards .card .text-container {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 5rem;
+  margin-top: 2rem;
+  padding-top: none;
+  font-size: large;
+  transition: 0.5s var(--cb);
+}
+.cards .card.card.active .text-container {
+  opacity: 1;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cards .card:not(.active) .text-container {
+  opacity: 0;
+}
+
+.cards .card .video-games {
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 20rem;
+  width: 100%;
+  bottom: 2rem;
+  /* padding-right: 14rem; */
+  /* margin-top: 2rem; */
+  padding-top: none;
+  /* padding: 2rem; */
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.5s var(--cb);
+}
+
+.cards .card.card.active .video-games {
+  opacity: 1;
+}
+
+.cards .card:not(.active) .video-games {
+  opacity: 0;
+}
+
+.cards .card .video-games .grid.h-scroll {
+  grid-template-columns: repeat(auto-fill, 35%);
+  grid-auto-flow: column;
+  grid-auto-columns: 35%;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.cards .card .video-games .grid {
+  display: grid;
+  column-gap: 1rem;
+}
+
+.cards .card .video-games .grid .grid-container {
+  display: grid;
+  width: fit-content;
+  grid-template-areas: 'image';
+  /* 'name'; */
+  /* grid-template-rows: auto; */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* row-gap: 0.5rem; */
+}
+
+.cards .card .video-games .grid .grid-container .image-container {
+  grid-area: image;
+}
+
+/* .cards .card .video-games .grid .grid-container .name {
+    grid-area: name;
+  } */
+
+.cards .card .video-games .grid .grid-container .image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 0.5rem;
+}
+
+/* TEST END */
+
+.cards .card.active {
+  flex-grow: 10000;
+  background-size: auto 100%;
+}
+
+.cards .card:not(.active) .label {
+  /* bottom: 10px; */
+  top: 10px;
+  left: 10px;
+}
+
+.cards .card .shadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(0, #0004, transparent);
+}
+
+.cards .card.active .info {
+  opacity: 1;
+}
+
+.cards .card:not(.active) .info {
+  opacity: 0;
+}

@@ -1,0 +1,225 @@
+:root {
+  --trans: rgba(0, 0, 0, 0.1);
+  --trans2: rgba(0, 0, 0, 0.15);
+  --nav-font: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(191, 244, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(191, 244, 255, 1) 0%,
+    rgba(254, 199, 247, 1) 100%
+  );
+}
+
+#content {
+  display: grid;
+  grid-template-areas: 'side-nav main-content';
+  grid-template-columns: 8rem 1fr;
+}
+
+.side-nav {
+  grid-area: side-nav;
+  width: 100%;
+  display: flex;
+  position: sticky;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 1rem;
+  height: 10rem;
+  line-height: 20pt;
+}
+
+.side-nav .categories {
+  list-style-type: none;
+}
+
+.categories button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  transition: 0.25s;
+  font-size: var(--nav-font);
+}
+
+.categories button:hover {
+  color: white;
+  transition: 0.25s;
+  transform: translateY(-2px);
+  font-size: var(--nav-font);
+}
+
+#main-content {
+  grid-area: main-content;
+}
+
+/* INTRO */
+#intro {
+  display: grid;
+  grid-template-areas: 'image content';
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 2rem;
+}
+
+.intro-container {
+  grid-area: content;
+  margin-top: none;
+  width: 35rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: var(--trans);
+  /* border-color: black; */
+  /* background-color: var(--trans); */
+}
+
+.intro-image img {
+  grid-area: image;
+  position: right;
+}
+
+/* ABOUT */
+#about {
+  padding-bottom: 2rem;
+}
+
+.about-container {
+  width: 50rem;
+  margin: auto;
+  padding: 2rem;
+  padding-top: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  border-color: black;
+  background-color: var(--trans);
+}
+
+.about-container:first-of-type {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'schools location year';
+  grid-template-columns: 16rem 1fr 6rem;
+  grid-template-rows: 3rem 1fr;
+  gap: 0.5rem;
+}
+
+#education-header {
+  grid-area: header;
+}
+
+#education {
+  grid-area: schools;
+}
+
+#year {
+  grid-area: year;
+  text-align: end;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  flex: wrap;
+  gap: 0.75rem;
+}
+
+.grid-container p {
+  background-color: var(--trans2);
+  margin: 0.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.grid-container p:first-of-type {
+  margin-left: 0;
+}
+
+/* INTERESTS */
+#interests {
+  padding-bottom: 2rem;
+}
+
+.interests-container {
+  width: 50rem;
+  margin: auto;
+}
+
+/* PROJECTS */
+#projects {
+  padding-bottom: 2rem;
+}
+
+.featured,
+.all-projects {
+  width: 50rem;
+  margin: auto;
+}
+
+/* VACATIONS */
+#vacations {
+  padding-bottom: 2rem;
+}
+
+.vacation-container {
+  width: 50rem;
+  margin: auto;
+}
+
+/* CONTACT */
+#contact {
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-areas:
+    'contact'
+    'resume';
+}
+
+/* .contact h2 {
+  grid-area: contact;
+  width: 50rem;
+  margin: auto;
+  margin-bottom: 1rem;
+} */
+
+.contact-container {
+  grid-area: contact;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 50rem;
+  margin: auto;
+}
+
+.contact-container .group-card {
+  display: grid;
+  grid-template-areas: 'icon name';
+  grid-template-columns: 2rem 1fr;
+}
+
+.contact-container a {
+  text-decoration: none;
+  color: blue;
+}
+
+.group-card svg {
+  grid-area: icon;
+  width: 100%;
+}
+
+.group-card .name {
+  grid-area: name;
+  width: 100%;
+}
+
+#resume {
+  width: 50rem;
+  margin: auto;
+}
